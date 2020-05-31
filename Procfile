@@ -1,1 +1,1 @@
-$ web : python dashapp.py
+$ web: python dashapp.py
