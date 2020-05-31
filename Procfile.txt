@@ -1,1 +1,1 @@
-web: GitHub/UKannualgrowth2013-2018.github.io/dashapp.py
+web: python dashapp.py. runserver
