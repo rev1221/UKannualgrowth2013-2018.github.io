@@ -1,1 +1,1 @@
-$ web: gunicorn app:dashapp.py
+$ web: python dashapp.py
