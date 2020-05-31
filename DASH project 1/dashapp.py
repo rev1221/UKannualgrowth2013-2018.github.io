@@ -7,10 +7,10 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 from plotly.subplots import make_subplots
 import json
-db = pd.read_excel(r"C:\Users\hkhaled\Music\Documents\statistics\python programs\DASH project 1\data\uk annual growth rate by region(cleaned).xlsx",
+db = pd.read_excel(r"data\uk annual growth rate by region(cleaned).xlsx",
                    sheet_name="Dataset"
                    )
-with open(r'C:\Users\hkhaled\Music\Documents\statistics\python programs\DASH project 1\data\map.geojson', 'r') as myfile:
+with open(r'data\map.geojson', 'r') as myfile:
     data=myfile.read()
 
 obj = json.loads(data)
