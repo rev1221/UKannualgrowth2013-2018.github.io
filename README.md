@@ -7,5 +7,6 @@
 3) The data folder contains geojson files where the original "uk_regions_map.geojson" where I adapted it to suit the excel file 
    by removing areas such as scotland and northern ireland from the original geojson file into "map.geojson".
 4) Assets folder contains css files used to provide style to the dashapp.py.
+5) Also dont change the name of the data files as the code is dependent on these datasets for the dashapp.py to work. If you wish to rename them without affecting the application, go to the dashapp.py and change where it says pd.read_excel() and pd.read_json() and after it says 'data/' change to what ever you want if you wish to rename. You are free to rename the name 'dashapp' and 'git3' if you wish to do so but ensure the git file is within the asset folder for the css stylesheet to activate.
 
    
